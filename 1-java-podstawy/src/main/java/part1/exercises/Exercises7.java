@@ -1,6 +1,6 @@
 package part1.exercises;
 
-public class Excercises7 {
+public class Exercises7 {
     public static void main(String[] args) {
         /*
             1. Napisz program (DivApp), który dzieli wpisane z klawiatury dwie liczby całkowite , ale jeśli dzielnik jest równy 0 to zamiast wyniku
