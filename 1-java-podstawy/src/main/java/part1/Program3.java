@@ -42,9 +42,9 @@ public class Program3 {
         System.out.print(" i reszta ");
         System.out.println(40 % 30);
         //UWAGA!!!
-        //działania na liczbach dziesiętnych w rzeczywistości nie są prowadzone na takich liczbach, a wynik jest zaokrąglany do liczby dziesiętnej
+        //działania na liczbach dziesiętnych w rzeczywistości nie są prowadzone na takich liczbach,
+        // a wyświetlany wynik jest też zaokrąglany do liczby dziesiętnej
         System.out.println(0.1 * 0.1 * 1245 - 12.45); //WYNIK POWINIEN BY ZERO
-        //Dlaczego tak jest dowiemy się później
-
+        //Dlaczego tak jest dowiemy się później.
     }
 }
