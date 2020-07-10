@@ -1,8 +1,8 @@
-package part1.exercises;
+package part1.examples;
 
 import java.util.Scanner;
 
-public class Exercises {
+public class AgeIfApp {
     public static void main(String[] args) {
         /*
             1. Uruchom program wpisując koljeno liczby 10, 18, 25 i obserwuj wyniki
