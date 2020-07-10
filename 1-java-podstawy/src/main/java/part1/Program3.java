@@ -19,6 +19,11 @@ public class Program3 {
         //modulo, reszta z dzielenia
         System.out.println( 40 % 30);
         /*
+          Budowa wyrażenia:
+          -, +, *, /, %     :   to operatory binarne, tzn. że wymagają podania dokładnie dwóch liczb
+          40, 30            :   to operandy
+         */
+        /*
          Tworzenie złożonych wyrażeń
          */
         //każde wyrażenie zwraca wartość, którą możemy wykorzystać w innym wyrażaniu
