@@ -1,4 +1,4 @@
-#Zadanie 1
+# Zadanie 1
 Napisz program, w którym przy pomocy wyrażeń wykonaj poniższe obliczenia:
 1. Oblicz pole prostokąta o bokach 134 i 189.
 2. Oblicz pole koło o promieniu 111, przyjmij wartość Pi jako 3.14
@@ -8,7 +8,7 @@ Wskazówka: oblicz osobno wartość reszty dzielenia.
 5. Oblicz w sekundach czas 2 godzin i 23 minut.
 6. Oblicz ile należy zapłacić za parkowanie trwające 3 godziny i 45 minut, jeśli pierwsza godzina kosztuje 2 zł,
 każda następna 3 zł, a naliczenie pełnej godziny następuje po przekroczeniu 30 minut.
-#Zadanie 2
+# Zadanie 2
 Napisz program, w którym:
 - oblicz ostatnią cyfrę liczby całkowitej,
 - oblicz sumę cyfr dowolnej liczby całkowitej dwucyfrowej,

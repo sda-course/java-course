@@ -1,4 +1,4 @@
-# Ćwiczenie 1
+# Zadanie 1
 
 Napisz program, który wczytuje kolejno:
 
@@ -33,7 +33,7 @@ program powinien wyświetlić:
 17
 ```
 
-# Ćwiczenie 2
+# Zadanie 2
 
 Napisz program, który dla wczytanych dwóch liczb całkowitych utworzy tablicę ze wszystkimi liczbami większymi od
 mniejszej i mniejszymi od większej spośród obu wczytanych liczb. Elementy tablicy wyświetl na ekranie.

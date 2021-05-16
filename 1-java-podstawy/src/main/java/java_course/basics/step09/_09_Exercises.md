@@ -1,4 +1,4 @@
-#Zadanie 1
+# Zadanie 1
 Napisz program, który podany z klawiatury łańcuch o długości powyżej 20 znaków wyświetla w dwu wierszach, tak aby 
 pierwszym wierszu nie było więcej niż 20 znaków, a w drugim pozostałe znaki. 
 ###Przykład
@@ -11,7 +11,7 @@ tekst zostanie wyświetlony w dwu wierszach:
 Lorem ipsum dolor si
 t amet, consectetur adipiscing elit
 ```
-#Zadanie 2   
+# Zadanie 2   
 Napisz program, który z łańcucha z numerem telefonu w postaci `+00000000000` wyświetla numer kierunkowy. 
 ###Przykład
 Dla łańucha
@@ -21,7 +21,7 @@ Dla łańucha
 wyświetlony zostanie prefiks:
 
 `48`
-#Zadanie 3
+# Zadanie 3
 Napisz program, który dla łańcucha podanego z klawiatury w postaci:
 
 `(liczba, liczba) (liczba, liczba)`
@@ -36,11 +36,11 @@ Dla łańcucha:
 wyświetli:
 
 `-2788 89 2989 -98`
-#Zadanie 4
+# Zadanie 4
 Napisz program, który dla adresu email wczytanego z klawiatury wyświeli:
 - nazwę użytkownika,
 - top domenę.
-###Przykład
+### Przykład
 Dla łańcucha:
 
 `adam@sda.pl`
@@ -51,9 +51,9 @@ wyświetli:
 
 `pl`
 
-#Zadanie 5
+# Zadanie 5
 Napisz program, który wczytuje łańcuch i znak oraz wyświetla liczbę wystąpień znaku w tym łańcuchu.
-###Przykład
+### Przykład
 Dla danych wejściowych:
 
 `Hello World!!!`
@@ -63,9 +63,9 @@ Dla danych wejściowych:
 wyświetli:
 
 3
-#Zadanie 6
+# Zadanie 6
 Napisz program, który wczytany łańcuch (jeden wiersz) z klawiatury otoczy ramką złożoną ze znaków '#'.
-###Przykład
+### Przykład
 Dla łańcucha wejściowego:
 
 `Hello World!`
@@ -76,24 +76,24 @@ wyświetli:
 #Hello World!#
 ##############
 ```
-#Zadanie 7
+# Zadanie 7
 Korzystając z sekwencji ucieczki do zmiany koloru wyświetlanego tekstu, napisz program, który dla tekstu w formacie:
 `kolor: tekst`, wyświetli sam tekst w podanym kolorze. Możliwe kolory: `RED`, `BLUE`, `GREEN`, przy czym kolory mogą być zapisane
 z użycie różnej wielkości liter np. `Red`, `red`, `rED`.
-###Przykład
+### Przykład
 Dla wejścia
 ```
 red: Hello World!
 ```
 wyświetli
 <span style="color:red">Hello World!</span>
-#Zadanie 8
+# Zadanie 8
 Napisz program, który wyświetli wpisany z klawiatury tekst źródłowy Javy, kolorując jego wybrane słowa kluczowe: 
 `switch`, `case`, `continue`, `break`, `for`, `while`, `do`, `if`, `else`.
-#Zadanie 9
+# Zadanie 9
 Napisz program, który każdą sekwencję znaków `*łańcuch*` zamieni na sekwencję `<b>łańcuch</b>`. Sekwencje mogą powtarzać się wielokrotnie w tekście,
 ale się nie zagnieżdżają.
-###Przykład
+### Przykład
 Dla tekstu:
 ```
 Loem *ipsum* dolor sit amet, *consectetur* adipiscing elit
@@ -102,14 +102,14 @@ program wyświetli:
 ```
 Loem <b>ipsum</b> dolor sit amet, <b>consectetur</b> adipiscing elit
 ```
-#Zadanie 10
+# Zadanie 10
 Napisz program, który wczytuje ciąg liczb rzeczywistych, aż do momentu wpisania pustego wiersza, a następnie
 obliczy ich sumę i wyświetli liczby z wynikiem w postaci sformatowanej:
 - szerokość pola dla każdej z liczb: 20 znaków
 - znak przed każdą liczbą
 - dwie cyfry po przecinku
 - wiersz przed sumą złożony ze znaków podkreślenia.
-###Przykład
+### Przykład
 Dla wejścia:
 ```
 123.4678
@@ -117,7 +117,7 @@ Dla wejścia:
 12345.821
 
 ```
-program wyświetli:
+Program wyświetli:
 ```
             + 123,47
            -3 456,79
@@ -125,7 +125,7 @@ program wyświetli:
 ____________________
             9 012,50                       
 ```
-#Zadanie 11
+# Zadanie 11
 Napisz program, który wczytuje ciąg wierszy do momentu wystąpienia wiersza pustego. Każdy z wierszy zawiera złożoną
 z ciągu wyrazów nazwę wyrobu np. `Konwekcyjny ogrzewacz miejscowy POWER SUN 10`. Zadaniem programu jest wyświetlenie
 w osobnych wierszach nazw produktów w postaci skróconej:

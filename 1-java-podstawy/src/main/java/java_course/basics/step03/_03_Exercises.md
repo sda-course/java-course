@@ -1,4 +1,4 @@
-#Zadanie 1
+# Zadanie 1
 1. Zadeklaruj zmienną typu `double` o nazwie `radius` i zainicjuj wartością 10.125.
 2. Oblicz obwód okręgu o promieniu w zmiennej `radius`.
 3. Wynik przypisz do drugiej zmiennej, która samodzielnie zadeklaruj.
@@ -6,17 +6,17 @@
 ```text
 Obwód koła o promieniu XXX wynosi YYY
 ```
-W miejscu XXX powinna pojawić się wartość promienia, a w YYY obliczona długość obwodu.
-#Zadanie 2
+W miejscu XXX powinna pojawić się wartość promienia, a w YYY obliczona długość obwodu. 
+# Zadanie 2
 Przeanalizuj i uruchom program `RectangleApp`.
 
 4. W miejscu deklaracji zmiennej `radius` zmień przypisaną wartość na inną np. 24.7 i sprawdź, czy program poprawnie obliczył obwód
 5. Każdy z punktów ćwiczenia 1 wykonaj w wersji ze zmiennymi.
-#Zadanie 3   
+# Zadanie 3   
 Samodzielnie utwórz klasę `CircleApp` i napisz program, który obliczy pole i obwód koła na podstawie wczytanego z klawiatury promienia.
-#Zadanie 4
+# Zadanie 4
 Wzorując się na programie `RectangleApp` samodzielnie napisz programy (klasy `VATApp`, `SecondsApp`, `ParkingApp`) ze wszystkich punktów Ćwiczenia 1 z pakietu `step02`.
-#Zadanie 5
+# Zadanie 5
 1. Stwórz klasę o dowolnej nazwie z metodą main.
 2. Zadeklaruj zmienną `length` typu `double` (bez przypisywania jej wartości) i wyświetl ją funkcją `println`. 
 3. Uruchom program.
@@ -26,7 +26,7 @@ Wzorując się na programie `RectangleApp` samodzielnie napisz programy (klasy `
 7. Za blokiem ponownie wyświetl zmienną `lenght`.
 8. Uruchom cały program. Spróbuj wytłumaczyć, co się stało.
 9. Czy możesz w zagnieżdżonym bloku dostać się do zmiennej `lenght` typu `double`, zadeklarowanej w bloku nadrzędnym?
-#Zadanie 6
+# Zadanie 6
 Napisz program, który wczytuje dwie liczby całkowite i oblicza ich sumę, a wynik obliczeń prezentuje w postaci:
 ```
     12
