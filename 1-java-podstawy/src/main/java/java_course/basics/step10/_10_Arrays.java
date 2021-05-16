@@ -176,7 +176,8 @@ public class _10_Arrays {
         int[][] arr2D = new int[][]{
                 {1},
                 {2, 3},
-                {4, 5, 6}
+                {4, 5, 6},
+                {7, 8, 9, 10}
         };
         System.out.println("Przeglądanie nieregularnej tablicy dwuwymiarowej:");
         for(int row = 0; row < arr2D.length; row++){
