@@ -186,10 +186,5 @@ public class _10_Arrays {
             }
             System.out.println();
         }
-
-        char index = 'a';
-        char[] chars = new char[200];
-        chars[index] = index;
-        System.out.println(chars['a']);
     }
 }
