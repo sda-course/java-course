@@ -1,6 +1,6 @@
 # Zadanie 1
 Napisz klasę `IntegerFormatter`, która udostępnia metody statyczne:
- - `String hexToBin(String input)` - zamiana dowolnego łańcucha zawierającego liczby szesnastkowe na łańcuch z liczbą binarną,
+ - `String hexToBin(String input)`  - zamiana dowolnego łańcucha zawierającego liczby szesnastkowe na łańcuch z liczbą binarną,
  - `String binToHex(Stirng input)`  - zamiana dowolnego łańcucha zawierającego cyfry binarne na łańcuch z liczbą szesnastkową.
 W obu metodach wykorzystaj strumień zwracany metodą `chars()` w klasie `String`.
 ### Przykład 
