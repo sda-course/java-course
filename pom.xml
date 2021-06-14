@@ -12,6 +12,9 @@
         <module>2-java-programowanie-podstawowe</module>
         <module>3-java-programowanie-zaawansowane</module>
         <module>4-java-zaawansowana</module>
+        <module>5-java-jdbc</module>
+        <module>20-java-solutions</module>
+        <module>6-jpa-hibernate</module>
     </modules>
     <properties>
         <compiler.maven.source>11</compiler.maven.source>
