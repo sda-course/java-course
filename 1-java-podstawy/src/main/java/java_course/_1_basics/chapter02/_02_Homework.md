@@ -16,5 +16,5 @@ Napisz program, w którym:
 - koło wykonując jeden obrót, pokonuje dystans 2m, oblicz, jaki dystans podczas 4 obrotów pokona koło o 0,2 m większej średnicy,
 - samochód pokonuje 40 km w ciągu pół godziny, jaki dystans pokona, jadąc z prędkością o 50% większą przez 5 godzin.
 - ile słupków potrzebnych jest do ogrodzenia prostokątnej działki o wymiarach 45 x 23 metry, jeśli w każdym narożniku należy postawić słupek, 
-a wszędzie gdzie to możliwe słupki należy rozstawić w odległości 2 metrów.
+  a wszędzie gdzie to możliwe słupki należy rozstawić w odległości 2 metrów.
   

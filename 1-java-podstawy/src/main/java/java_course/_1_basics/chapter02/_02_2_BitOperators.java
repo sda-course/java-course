@@ -1,14 +1,14 @@
 package java_course._1_basics.chapter02;
-
+import java.util.concurrent.atomic.AtomicReference;
 public class _02_2_BitOperators {
+    final int a = 10;
     public static void main(String[] args) {
         //Operatory bitowe działają na bitach liczb
-        //liczba 255 w zapisie binarnym
+        //liczba 255 w zapisie binarnym.
         System.out.println(0b11111111);
 
         //liczb 255 w zapisie ósemkowym
         System.out.println(0377);
-
         //ta sama liczba w zapisie szesnastkowym
         System.out.println(0xFF);
 
@@ -63,8 +63,8 @@ public class _02_2_BitOperators {
 
         //Operacje bitowe wykorzystywane są najczęściej przy współpracy ze sprzętem.
         //Np. wyświetlacz operuje na ciągu 32 bitów (typ int), które opisują kolor jednego piksela.
-        //Aby wygenerować kolor na podstawie składowych, trzeba podzielić te 32-bity na bajty
-        //gdyż trzy z tych bajtów to wartości składowych RGB
+        //Aby wygenerować kolor na podstawie składowych, trzeba podzielić te 32-bity na bajty,
+        //gdyż trzy z tych bajtów to wartości składowych RGB.
         System.out.println("(0xFABB134F & 0x00FF0000) >> 16 = " + ((0xFABB134F & 0x00FF0000) >> 16));
         System.out.println(0xBB);
     }

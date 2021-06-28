@@ -1,5 +1,12 @@
 package java_course._1_basics.chapter02;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadFactory;
+
 /**
  * Operatory arytmetyczne
  */
@@ -44,17 +51,17 @@ public class _02_1_ArithmeticOperators {
         //dzielenie dwóch liczb całkowitych, czyli zapisanych bez kropki, daje wynik całkowity.
         System.out.println(40 / 30);
 
-        //dzielenie dwóch liczb, z których choć jedna jest dziesiętna czyli z kropką, daje wynik dziesiętny
+        //dzielenie dwóch liczb, z których choć jedna jest dziesiętna, czyli z kropką, daje wynik dziesiętny.
         System.out.println(40.0 / 30);
 
-        //dzielenie przez zero liczby całkowitej generuje błąd, który zatrzymuje dalsze wykonywanie programu
+        //dzielenie przez zero liczby całkowitej generuje błąd, który zatrzymuje dalsze wykonywanie programu.
         System.out.println(40 / 0);
 
         //wstaw znak komentarza przed instrukcją powodującą błąd!!!
-        //dzielenie przez zero, gdy jedna z liczb jest dziesiętna, nie powoduje błędu, ale zwraca wartość Infinity
+        //dzielenie przez zero, gdy jedna z liczb jest dziesiętna, nie powoduje błędu, ale zwraca wartość Infinity.
         System.out.println(40 / 0.0);
 
-        //Dokładny wynik dzielenia całkowitego można podać jako dwie liczby: wynik dzielenie i reszta
+        //Dokładny wynik dzielenia całkowitego można podać jako dwie liczby: wynik dzielenie i reszta.
         System.out.print("Wynik dzielenia 40 / 30 = ");
         System.out.print(40 /30);
         System.out.print(" i reszta ");

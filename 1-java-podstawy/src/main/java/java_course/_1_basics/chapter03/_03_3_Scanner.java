@@ -20,7 +20,7 @@ public class _03_3_Scanner {
 
         /*
             Wczytanie liczby całkowitej typu int. Program będzie czekał na wpisanie danych.
-            Gdy użytkownik wciśnie ENTER i wpisane dane będą zgodne z typem to zakończy się ta instrukcja.
+            Gdy użytkownik wciśnie ENTER i wpisane dane będą zgodne z typem, to zakończy się instrukcja.
             Jeśli użytkownik wpisze dane niepasujące, zostanie zgłoszony błąd i program zostanie przerwany.
         */
         System.out.println("Wpisz liczbę całkowitą:");
