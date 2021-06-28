@@ -16,8 +16,8 @@ package java_course._1_basics.chapter08;
  * to obiekt B odczyta zmienioną wartość przez A.
  * Pola współdzielone między obiektami są polami statycznymi, które deklaruje się ze słowem static umieszczonym na początku deklaracji.
  *
- * <p>Podobnie do pól możliwe jest też zdefiniowanie metod statycznych. Metoda statyczna jest przypisana do klasy, więc aby ją wywołać
- * nie musimy tworzyć instancji klasy, można taką metodę wywołać podając nazwę klasy.
+ * <p>Podobnie do pól możliwe jest też zdefiniowanie metod statycznych. Metoda statyczna jest przypisana do klasy więc, aby ją wywołać,
+ * nie musimy tworzyć instancji klasy. Można taką metodę wywołać, podając nazwę klasy.
  * To pociąga za sobą konsekwencję: w takich metoda nie można odwoływać się pól instancyjnych, bo po prostu może nie być obiektu w trakcie
  * jej wywołania!
  *

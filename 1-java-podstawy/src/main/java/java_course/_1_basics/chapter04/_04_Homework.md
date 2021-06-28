@@ -1,7 +1,9 @@
 # Zadanie 1
 Otwórz klasę AgeApp i wykonaj zawarte w niej polecenia.
+
 # Zadanie 2
 Napisz program, który dla dwóch liczb rzeczywistych wczytanych z klawiatury wyświetla wynik dzielenia większej przez mniejszą.
+
 # Zadanie 3
 Napisz program, który dla dwóch liczb całkowitych wczytanych z klawiatury wyświetli tę, która ma większą cyfrę jedności.
 ### Przykład

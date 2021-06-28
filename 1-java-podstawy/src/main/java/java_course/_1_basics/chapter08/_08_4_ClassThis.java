@@ -3,10 +3,10 @@ package java_course._1_basics.chapter08;
 /**
  * Zmienna this
  * <p>
- * Obiekt tworzony jest dopiero, gdy utworzy się go operatorem new na konstruktorze klasy.
- * W trakcie definiowania klasy nie jesteśmy w stanie określić jaka będzie referencja tworzonego obiektu.
- * Jeśli w klasie jest potrzeba odwołania się do obiektu, który zostanie dopiero utworzony to
- * stosuje się zmienną this, która zastępuje referencję utworzonego obiektu.
+ * Obiekt tworzy się operatorem new na konstruktorze klasy, więc w trakcie definiowania klasy nie mamy dostępu do obiektu.
+ * W trakcie definiowania klasy nie jesteśmy w stanie określić, jaka będzie referencja tworzonego obiektu.
+ * Jeśli w klasie jest potrzeba odwołania się do obiektu, który zostanie dopiero utworzony, to
+ * stosuje się zmienną 'this', która zastępuje referencję tworzonego w przyszłości obiektu.
  * <p>
  * Sama zmienna this jest też odwołaniem do konstruktora bieżącej klasy.
  */

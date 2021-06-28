@@ -21,6 +21,6 @@ public class _11_3_BigInteger {
         System.out.println("e12 modulo 3000 (reszta z dzielenia) = " + e12.mod(BigInteger.valueOf(3000)));
         System.out.println("e12 do potęgi 10 " + e12.pow(10));
         System.out.println("Liczba bitów potrzebna do zapisania e12: " + e12.bitLength());
-        System.out.println("Liczba bitów potrzeba do zapisania 0: " + BigInteger.ZERO);
+        System.out.println("Liczba zero: " + BigInteger.ZERO);
     }
 }

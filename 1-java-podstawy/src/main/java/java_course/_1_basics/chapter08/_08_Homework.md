@@ -33,7 +33,7 @@ Dodaj do klasy z poprzedniego zadania metody:
 Napisz program, wykorzystujący klasę i jej metody.
 
 # Zadanie 5
-Zdefiniuj klasę Beam, która opisuje belę materiału o szerokości 1 metra.
+Zdefiniuj klasę `Beam`, która opisuje belę materiału o szerokości 1 metra.
 
 Konstruktory:
 - bezargumentowy, inicjuje belę o długości 0 metrów,
@@ -43,8 +43,8 @@ Pola:
 - length: długość beli w metrach typu int inicjowana w konstruktorach.
 
 Metody:
-- int cut (int meters): realizuje próbę odcięcia kawałka o długości w meters i zwraca długość odciętego kawałka,
-- int length (): zwraca aktualną długość beli.
+- `int cut(int meters)`: realizuje próbę odcięcia kawałka o długości w meters i zwraca długość odciętego kawałka,
+- `int length ()`: zwraca aktualną długość beli.
 ### Przykład
 Po wykonaniu poniższego kodu:
 ```java
@@ -85,11 +85,13 @@ Konstruktory
 Metody:
 - `int area()`: zwraca aktualne pole beli
 - `boolean isAvaible(int area)` - zwraca prawdę, jeśli jest możliwe odcięcie kawałka o powierzchni w argumencie `area`
+
 # Zadanie 7
 Zdefiniuj klasę `Bankomat`, która przechowuje informację o liczbie monet:
 - 5 zł
 - 2 zł
 - 1 zł
+- 
 Zdefiniuj konstruktor do inicjowania pól oraz metody:
 - `boolean isEnought(int amount)`: która zwraca prawdę, jeśli jest możliwe wypłacenie kwoty `amount`,
 - `String payOut(int amount)`: która zwraca łańcuch w postaci `5 zł: x, 2 zł: y, 1 zł: z`, gdzie `x`, `y` i `z` to liczba wypłaconych

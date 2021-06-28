@@ -8,7 +8,7 @@ public class _04_3_Math {
         /*
             Biblioteka Math zawiera funkcje matematyczne niezbędne do wykonywania obliczeń.
          */
-        int abs = Math.abs(-10);                        //wartość bezwględna
+        int abs = Math.abs(-10);                        //wartość bezwględna.
         double x = 2.5d;
         double y = 4;
         double power = Math.pow(x, y);                  //potęga x do y
@@ -20,12 +20,15 @@ public class _04_3_Math {
         double arcInRadians = Math.toRadians(90);       //przeliczenie stopni na radiany
         double arcInDegrees = Math.toDegrees(Math.PI / 2); //przeliczenie radianów na stopnie
         long round = Math.round(2.56d);                 //zaokrąglenie do wartości całkowitej
-        double ceil = Math.ceil(2.56d);                 //zwraca najmniejszą wartość całkowitą, która jest większa lub równa od argumentu - 3
-        double floor = Math.floor(2.56d);               //zwraca największą wartość całkowitą, która jest mniejsza lub równa od argumentu - 2
-        double rint = Math.rint(3.5d);                  //zwraca najbliższą wartość całkowitą do argumentu
-        double random = Math.random();                  //zwraca liczbę pseudolosową z zakresu od 0.0 do 1.0
+        double ceil = Math.ceil(2.56d);                 //zwraca najmniejszą wartość całkowitą, która jest większa lub równa od argumentu - 3.
+        double floor = Math.floor(2.56d);               //zwraca największą wartość całkowitą, która jest mniejsza lub równa od argumentu - 2.
+        double rint = Math.rint(3.5d);                  //zwraca najbliższą wartość całkowitą do argumentu.
+        double random = Math.random();                  //zwraca liczbę pseudolosową z zakresu od 0.0 do 1.0.
         //... i wiele innych
-
+        double maxValue = Math.max(11, 45);             //zwraca większą liczbę, istnieją cztery wersję dla typów int, long float i double.
+        double minValue = Math.min(3.56, 1.89);         //zwraca mniejszą liczbę.
+        double remainder = Math.IEEEremainder(2.45, 2);
+        System.out.println(remainder);
         /*
             Różnica między round a rint nie dotyczy tylko zwracanych typów!!!
          */
@@ -37,7 +40,7 @@ public class _04_3_Math {
         System.out.println(Math.round(2.5));
 
         /*
-            Generowanie liczb pseudolosowych w innym zakresie polega na dodaniu stałej i pomnożeniu wartości zwracanej
+            Generowanie liczb pseudolosowych w innym zakresie polega na dodaniu stałej i pomnożeniu wartości zwracanej.
          */
         double randomOne = Math.random() * 10;                  //generuje liczby zmiennoprzecinkowe od 0.0 do 10.0
         long randomLong = Math.round(1 + Math.random() * 5);    //generuje liczby całkowite od 1 do 6
