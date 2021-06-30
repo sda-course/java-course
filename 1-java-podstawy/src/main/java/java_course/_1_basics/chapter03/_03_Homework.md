@@ -8,11 +8,18 @@ Obwód koła o promieniu XXX wynosi YYY
 ```
 W miejscu XXX powinna pojawić się wartość promienia, a w YYY obliczona długość obwodu. 
 
-# Zadanie 2
-Przeanalizuj i uruchom program `RectangleApp`.
-1. W miejscu deklaracji zmiennej `radius` zmień przypisaną wartość na inną np. 24.7 i sprawdź, czy program poprawnie obliczył obwód
-2. Każdy z punktów Zadanie 1 wykonaj w wersji ze zmiennymi.
-
+#Zadanie 2
+Samodzielnie utwórz klasę `VariablesDemo` i zadeklaruj w niej zmienne:
+* a typu long
+* b typu int
+* c typu short
+* d typu byte
+  Każdą ze zmiennych zainicjuj największą wartością. Największa wartość dla typu byte w kodzie szesnastkowym to 0x7F. Wiedząc, że typ short to 2 bajty, int 4 a long 8
+  dopisz największe wartości dla pozostałych zmiennych.  
+  Wyświetl wynik mnożenia każdej ze zmiennych przez 2.
+1. Określ, który z wyników jest nieprawidłowy.
+2. Zastosuj w jednym z nich rzutowanie, aby otrzymać poprawny wynik.
+3. 
 # Zadanie 3   
 Samodzielnie utwórz klasę `CircleApp` i napisz program, który obliczy pole i obwód koła na podstawie wczytanego z klawiatury promienia.
 
@@ -21,14 +28,13 @@ Wzorując się na programie `RectangleApp` samodzielnie napisz programy (klasy `
 
 # Zadanie 5
 1. Stwórz klasę o dowolnej nazwie z metodą main.
-2. Zadeklaruj zmienną `length` typu `double` (bez przypisywania jej wartości) i wyświetl ją funkcją `println`. 
+2. Zadeklaruj zmienną `length` typu `double` (bez przypisywania jej wartości) i wyświetl ją funkcją `println`.
 3. Uruchom program.
 4. Na podstawie komunikatu o błędzie napraw program, aby wyświetlała się liczba 0.0.
-5. Poniżej wpisanego kodu utwórz blok i w nim ponownie zadeklaruj zmienną `length`, ale typu `int` z wartością 10.
-6. W bloku tuż za deklaracją umieść też instrukcję wyświetlająca `lenght`.
+5. Poniżej wpisanego kodu utwórz blok i w nim zadeklaruj zmienną `width`typu `int` z wartością 10.
+6. W bloku tuż za deklaracją zmiennej `width` umieść instrukcję ją wyświetlającą.
 7. Za blokiem ponownie wyświetl zmienną `lenght`.
-8. Uruchom cały program. Spróbuj wytłumaczyć, co się stało.
-9. Czy możesz w zagnieżdżonym bloku dostać się do zmiennej `lenght` typu `double`, zadeklarowanej w bloku nadrzędnym?
+8. Czy za blokiem można wyświetlić zmienną `width`?
 
 # Zadanie 6
 Napisz program, który wczytuje dwie liczby całkowite i oblicza ich sumę, a wynik obliczeń prezentuje w postaci:
